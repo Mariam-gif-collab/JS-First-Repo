@@ -632,16 +632,65 @@
 // colors.shift(1);
 // document.writeln(colors +"<br>");
 // part e//////////////
+// colors.pop();
+// document.writeln(colors +"<br><br>");
+
+/////part F/////
+// var indexAdd = parseInt(prompt("At which index do you want to add a color(s)?"));
+// var newColor = prompt("Which color do you want to add?");
+// colors.splice(indexAdd , 0 , newColor);
+// document.writeln(colors +"<br><br>");
+
+/////part G/////
+// var indexRemove = parseInt(prompt("At which index do you want to remove a color?"));
+// var quantity = parseInt(prompt("How many colors do you want to delete?"));
+// colors.splice(indexRemove , quantity);
 
 
+// QUESTION 10 //
+// var scores = [20 , 53 , 22 , 15 , 34];
+// document.writeln("<h2>Scores of students: </h2>" + scores);
+// scores.sort((a, b) => a - b);
+// document.writeln("<h2>Ordered scores of students: </h2>" + scores);
 
+// QUESTION 11 //
+// var cities = ["Karachi" , "Lahore" , "Islamabad" , "Quetta" , "Peshawar"];
+// document.writeln("<h1>Cities List: </h1>" + cities);
+// var selectedCities = cities.slice(1,3);
+// document.writeln("<h1>Selected Cities: </h1>" + selectedCities);
 
+// QUESTION 12 //
+// var arr = ["This", " is", " my", " cat"];
+// var result = arr.join("");
+// document.write("<h1>Array:</h1> " + arr + "<br><br>");
+// document.write("<h1>String:</h1> " + result);
 
+// QUESTION 13 //
+// var arr = [];
+// arr.push("Apple");
+// document.writeln(arr + "<br>");
+// arr.push("Banana");
+// document.writeln(arr  + "<br>");
+// arr.push("Mango");
+// document.writeln(arr  + "<br>");
 
+// QUESTION 14 //
+// let arr = [];
+// arr.push("Red");
+// arr.push("Blue");
+// arr.push("Green");
+// document.writeln(arr + "<br>");
+// document.writeln(arr.pop() + "<br>");
+// document.writeln(arr.pop() + "<br>");
+// document.writeln(arr.pop() + "<br>");
 
-
-
-
+// QUESTION 15 //
+// let manufacturers = ["Apple" , "Samsung" , "Motorola" , "Sony" , "Nokia" , "Haier"];
+//  document.writeln("<select>");
+// for (var i = 0; i < manufacturers.length; i++) {
+// document.writeln("<option>" + manufacturers[i] + "</option>");
+// }
+// document.writeln("</select>");
 
 // ///////////////chap 17-20//////////////////
 // Question 1/////////
@@ -702,6 +751,48 @@
 //   document.writeln(i + "k, ");
 // }
 
+// Question 7 //////////
+// let userInput = prompt("Enter the item you want to search:");
+// let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// if (A.includes(userInput)) {
+//     alert(userInput + " is available in our bakery!");
+// } else {
+//     alert("We are sorry, " + userInput + " is not available in our bakery.");
+// }
+
+// Question 8 //////////
+// let A = [24, 53, 78, 91, 12];
+// let largest = A[0]; // start with the first element
+
+// for (let i = 1; i < A.length; i++) {
+//   if (A[i] > largest) {
+//     largest = A[i]; 
+//   }
+// }
+
+// console.log("The largest number is: " + largest);
+
+
+// Question 9 //////////
+
+// let A = [24, 53, 78, 91, 12];
+// let smallest = A[0]; // start with the first element
+
+// for (let i = 1; i < A.length; i++) {
+//   if (A[i] < smallest) {
+//     smallest = A[i]; // update if a smaller number is found
+//   }
+// }
+
+// console.log("The smallest number is: " + smallest);
+
+// Question 10 //////////
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
 
 
 
